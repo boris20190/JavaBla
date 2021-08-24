@@ -2,7 +2,7 @@ package Array02;
 
 import java.util.Scanner;
 
-// 对象数组，和C语言结构体差不多，
+// 对象数组，和C语言结构体差不多，这里实现了简单的信息录入
 public class ObjectArray {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
