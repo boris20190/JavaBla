@@ -1,4 +1,4 @@
-package Extend02;
+package Lucky_Money01;
 // alt+insert直接构造函数
 public class User {
   private String name; // 用户名

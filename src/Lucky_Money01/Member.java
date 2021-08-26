@@ -1,4 +1,4 @@
-package Extend02;
+package Lucky_Money01;
 
 import java.util.ArrayList;
 import java.util.Random;
