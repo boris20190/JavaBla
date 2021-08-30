@@ -15,7 +15,7 @@ public class stuMain {
     tree.add(stu2);
     tree.add(stu3);
     tree.add(stu4);
-    Iterator<UpdateStu> it = tree.iterator();
+    Iterator<UpdateStu> it = tree.iterator(); // 构建迭代器
 
     System.out.println("Set集合中所有元素：");
 
