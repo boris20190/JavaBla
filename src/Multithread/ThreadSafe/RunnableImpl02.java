@@ -1,5 +1,5 @@
 package Multithread.ThreadSafe;
-
+//synchronized代码块同步
 public class RunnableImpl02 implements Runnable {
 
   private int ticket = 100;
@@ -8,7 +8,7 @@ public class RunnableImpl02 implements Runnable {
   @Override
   public void run() {
 
-    while (ticket > 2) {
+    while (ticket > 0) {
       synchronized (obj) { // 线程没有执行完，不会归还锁，没有锁的线程即使抢到了执行权也无法执行，必须等待锁被归还
         System.out.println(Thread.currentThread().getName() + "正在卖第" + ticket + "张票");
         ticket--;
